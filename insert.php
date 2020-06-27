@@ -26,6 +26,6 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
-#header("Location: http://advancewholesalemanagementsystem/ProductCreate.html");
+header("Location: http://advancewholesalemanagementsystem/ProductCreate.html");
 $conn->close();
 ?>
